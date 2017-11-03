@@ -11,15 +11,12 @@ namespace Capstone.Models
         [Key]
         public int CustomerId;
         [Display(Name = "Your Earnings from your Primary Job: $")]
-        public int CustomerEarnings { get; set; }
+        public double CustomerEarnings { get; set; }
         [Display(Name = "Your Earnings from your Secondary Job: $")]
-        public int CustomerEarnings2 { get; set; }
+        public double CustomerEarnings2 { get; set; }
         [Display(Name = "Your Earnings from Other Jobs: $")]
-        public int CustomerEarnings3 { get; set; }
+        public double CustomerEarnings3 { get; set; }
         [Display(Name = "Other Monetary Gains Not from Work: $")]
-        public int CustomerOtherGains { get; set; }
-
-
-
+        public double CustomerOtherGains { get; set; }
     }
 }

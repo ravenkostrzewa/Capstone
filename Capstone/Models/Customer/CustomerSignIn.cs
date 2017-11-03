@@ -14,5 +14,7 @@ namespace Capstone.Models
         public string CustomerEmail { get; set; }
         [Display(Name = "Password")]
         public string CustomerPassword { get; set; }
+        [Display(Name = "Sign In as an Administrator")]
+        public bool AdministratorSignIn { get; set; }
     }
 }

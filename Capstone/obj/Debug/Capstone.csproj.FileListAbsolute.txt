@@ -78,5 +78,7 @@ C:\Users\Raven\Documents\Visual Studio 2015\Projects\Capstone\Capstone\bin\Micro
 C:\Users\Raven\Documents\Visual Studio 2015\Projects\Capstone\Capstone\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Raven\Documents\Visual Studio 2015\Projects\Capstone\Capstone\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Raven\Documents\Visual Studio 2015\Projects\Capstone\Capstone\obj\Debug\Capstone.csprojResolveAssemblyReference.cache
+C:\Users\Raven\Documents\Visual Studio 2015\Projects\Capstone\Capstone\obj\Debug\Capstone.Migrations.editedcustomerprofilemodel.resources
+C:\Users\Raven\Documents\Visual Studio 2015\Projects\Capstone\Capstone\obj\Debug\Capstone.csproj.GenerateResource.Cache
 C:\Users\Raven\Documents\Visual Studio 2015\Projects\Capstone\Capstone\obj\Debug\Capstone.dll
 C:\Users\Raven\Documents\Visual Studio 2015\Projects\Capstone\Capstone\obj\Debug\Capstone.pdb

@@ -47,5 +47,7 @@ namespace Capstone.Models
         public string SideGig2 { get; set; } 
         [Display(Name = "How much do you expect this/these to bring in this year? $____")] //if othermeansofincome == true
         public double AdditionalRevenue2 {get; set;}
+        [Display(Name = "How many dependents do you have?")]
+        public int CustomerDependents { get; set; }
     } 
 }

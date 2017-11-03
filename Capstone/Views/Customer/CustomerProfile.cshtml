@@ -118,7 +118,6 @@
         <div class="form-group">
             @Html.LabelFor(model => model.AdditionalRevenue2, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                <div class="checkbox">
                     @Html.EditorFor(model => model.AdditionalRevenue2)
                     @Html.ValidationMessageFor(model => model.AdditionalRevenue2, "", new { @class = "text-danger" })
                 </div>
@@ -146,10 +145,16 @@
         <div class="form-group">
             @Html.LabelFor(model => model.AdditionalRevenue2, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                <div class="checkbox">
                     @Html.EditorFor(model => model.AdditionalRevenue2)
                     @Html.ValidationMessageFor(model => model.AdditionalRevenue2, "", new { @class = "text-danger" })
-                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CustomerDependents, "", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CustomerDependents, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.CustomerDependents, "", new { @class = "text-danger" })
             </div>
         </div>
 
@@ -158,7 +163,6 @@
                 <input type="submit" value="Continue" class="btn btn-default" />
             </div>
         </div>
-    </div>
 }
 
 @section Scripts {
