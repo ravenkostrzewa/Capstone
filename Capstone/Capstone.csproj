@@ -202,17 +202,17 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\AdministratorStatistics.cs" />
-    <Compile Include="Models\CustomerCalendar.cs" />
-    <Compile Include="Models\CustomerSpendingCategorization.cs" />
-    <Compile Include="Models\CustomerEarnings.cs" />
-    <Compile Include="Models\CustomerProfile.cs" />
-    <Compile Include="Models\CustomerSignIn.cs" />
-    <Compile Include="Models\CustomerSignUp.cs" />
-    <Compile Include="Models\CustomerGoalsAndBudget.cs" />
+    <Compile Include="Models\Administrator\AdministratorStatistics.cs" />
+    <Compile Include="Models\Customer\CustomerCalendar.cs" />
+    <Compile Include="Models\Customer\CustomerSpendingCategorization.cs" />
+    <Compile Include="Models\Customer\CustomerEarnings.cs" />
+    <Compile Include="Models\Customer\CustomerProfile.cs" />
+    <Compile Include="Models\Customer\CustomerSignIn.cs" />
+    <Compile Include="Models\Customer\CustomerSignUp.cs" />
+    <Compile Include="Models\Customer\CustomerGoalsAndBudget.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
-    <Compile Include="Models\CustomerYelpAndGoogleMaps.cs" />
+    <Compile Include="Models\Customer\CustomerYelpAndGoogleMaps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -278,6 +278,7 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\Index.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Customer\CustomerProfile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
