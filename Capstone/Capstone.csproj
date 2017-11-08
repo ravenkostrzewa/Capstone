@@ -77,6 +77,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -138,11 +142,12 @@
       <Private>True</Private>
       <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Yelp.Api, Version=1.2.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Yelp.Api.1.2.5\lib\portable45-net45+win8+wpa81\Yelp.Api.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="EntityFramework">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -196,6 +201,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\Customer\CustomerYelp.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -204,6 +210,14 @@
     <Compile Include="Migrations\201711031545303_edited customer profile model.cs" />
     <Compile Include="Migrations\201711031545303_edited customer profile model.Designer.cs">
       <DependentUpon>201711031545303_edited customer profile model.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711071430066_added yelp api.cs" />
+    <Compile Include="Migrations\201711071430066_added yelp api.Designer.cs">
+      <DependentUpon>201711071430066_added yelp api.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711082010076_created AdministratorStatistics model.cs" />
+    <Compile Include="Migrations\201711082010076_created AdministratorStatistics model.Designer.cs">
+      <DependentUpon>201711082010076_created AdministratorStatistics model.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -217,7 +231,6 @@
     <Compile Include="Models\Customer\CustomerGoalsAndBudget.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
-    <Compile Include="Models\Customer\CustomerYelpAndGoogleMaps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -289,7 +302,7 @@
     <Content Include="Views\Customer\CustomerCalendar.cshtml" />
     <Content Include="Views\Customer\CustomerGoalsAndBudget.cshtml" />
     <Content Include="Views\Customer\CustomerSpendingCategorization.cshtml" />
-    <Content Include="Views\Customer\CustomerYelpAndGoogleMaps.cshtml" />
+    <Content Include="Views\Customer\CustomerGoogleMaps.cshtml" />
     <Content Include="Views\Administrator\AdministratorStatistics.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -306,6 +319,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201711031545303_edited customer profile model.resx">
       <DependentUpon>201711031545303_edited customer profile model.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711071430066_added yelp api.resx">
+      <DependentUpon>201711071430066_added yelp api.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711082010076_created AdministratorStatistics model.resx">
+      <DependentUpon>201711082010076_created AdministratorStatistics model.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -49,5 +49,10 @@ namespace Capstone.Models
         public double AdditionalRevenue2 {get; set;}
         [Display(Name = "How many dependents do you have?")]
         public int CustomerDependents { get; set; }
+        [Display(Name = "Do you have any debt?")]
+        public bool CustomerDebt { get; set; }
+        //if above box is checked
+        [Display(Name = "How much money do you owe?")]
+        public double TotalDebt { get; set; }
     } 
 }

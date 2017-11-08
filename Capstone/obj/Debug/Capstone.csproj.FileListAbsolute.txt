@@ -82,3 +82,6 @@ C:\Users\Raven\Documents\Visual Studio 2015\Projects\Capstone\Capstone\obj\Debug
 C:\Users\Raven\Documents\Visual Studio 2015\Projects\Capstone\Capstone\obj\Debug\Capstone.csproj.GenerateResource.Cache
 C:\Users\Raven\Documents\Visual Studio 2015\Projects\Capstone\Capstone\obj\Debug\Capstone.dll
 C:\Users\Raven\Documents\Visual Studio 2015\Projects\Capstone\Capstone\obj\Debug\Capstone.pdb
+C:\Users\Raven\Documents\Visual Studio 2015\Projects\Capstone\Capstone\bin\Yelp.Api.dll
+C:\Users\Raven\Documents\Visual Studio 2015\Projects\Capstone\Capstone\obj\Debug\Capstone.Migrations.addedyelpapi.resources
+C:\Users\Raven\Documents\Visual Studio 2015\Projects\Capstone\Capstone\obj\Debug\Capstone.Migrations.createdAdministratorStatisticsmodel.resources
