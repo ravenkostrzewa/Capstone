@@ -11,16 +11,16 @@ namespace Capstone.Models
         [Key]
         public int Id { get; set; }
         [Display(Name = "Age:")]
-        public string Age { get; set; }    //math   (calculate from birthdate)
+        public string Age { get; set; }   
         [Display(Name = "Earned Income: $")]
-        public double TotalCustomerEarnings { get; set; }   //math   (add individual jobs together, to each other, divide by # of customers)
+        public double TotalCustomerEarnings { get; set; } 
         [Display(Name = "Monetary Gains Not from Work: $")]
-        public double NonIncomeGains { get; set; }   //math   (add entries, divide by # of customers)
+        public double NonIncomeGains { get; set; }  
         [Display(Name = "Debt: $")]
         public int Debt { get; set; }
         [Display(Name = "Total Saved")]
-        public double TotalSaved { get; set; }      //math    (add entries, divide by # of customers)
+        public double TotalSaved { get; set; }    
         [Display(Name = "Total Spent")]
-        public double TotalSpent { get; set; }     //math    (add individual spending together, to each other, divide by # of customers)
+        public double TotalSpent { get; set; }     
     }
 }
