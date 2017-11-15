@@ -30,7 +30,7 @@
         </div>
 
         @Html.DropDownList("State",
-                    new SelectList(Enum.GetValues(typeof(CustomerProfile.CustomerState))),
+                    new SelectList(Enum.GetValues(typeof(State))),
                     "Select State of Residence",
                     new { @class = "form-control" })
 
@@ -43,7 +43,7 @@
         </div>
 
         @Html.DropDownList("Gender",
-                    new SelectList(Enum.GetValues(typeof( CustomerGender))),
+                    new SelectList(Enum.GetValues(typeof(Gender))),
                     "Select Gender",
                     new { @class = "form-control" })
 
